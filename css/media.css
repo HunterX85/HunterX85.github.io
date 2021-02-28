@@ -4,13 +4,26 @@
 	{
 		padding-top: 35%;
 	}
+	
 	.about
 	{
-		height: 150vh;
+		height: 100%;
+	}
+	.about-photo
+	{
+		margin-left: 5%;
+	}
+		.about-photo img
+	{
+		padding-top: 10%;
+	}
+	.about-me
+	{
+		width: 320px;
 	}
 	.skills
 	{
-		height: 130vh;
+		height: 100%;
 	}
 	.skills-img
 	{
@@ -30,7 +43,7 @@
 	}
 	.skills-web
 	{
-		height: 120vh;
+		height: 100%;
 	}
 	.skills-web-img
 	{
@@ -52,10 +65,16 @@
     }
     .works
     {
-    	height: 75vh;
+    	height: 100%;
     }
     .works-details
     {
     	padding-top: 25%;
     }
+    .container
+    {
+    	margin-left: 10%;
+    	width: 100%;
+    }
+
 }

@@ -10,6 +10,7 @@ body h1,h2,h3,p,a
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 10;
 }
+
 .bg-primary
 {
 	background-color: #141532!important;
@@ -42,47 +43,32 @@ body h1,h2,h3,p,a
 	background-size: cover;
 	width: 100%;
 	height: 80vh;
-
 }
 .about div
 {
 	display: inline-block;
 }
-.about-education-photo img
+.about-photo
 {
- margin:0 0;
- width: 350px;
- height: 560px;
+	margin-left: 25%;
+	padding-top: 5%;
 }
-.about-education-university li
+.about-photo img
 {
-  width: 340px;
-  font-family: ApexMK3;
+	width: 320px;
+	height: 370px;
+	margin-top: -10%;
 }
-.about-education-university ul
+.about-me
 {
-  font-family: ApexMK3;
+	width: 380px;
+	margin-left: 5%;
+	margin-top: 0;
 }
-.about-education-university p
-  {
-  	color: black;
-  	width: 250px;
-  	margin-bottom: 0;
-  }
-  .about-qualities p
-  {
-  	color: red;
-  }
-  .about-qualities li
-  {
-  	font-family: ApexMK3;
-  	margin-top: 10%;
-  }
- .about-qualities
- {
- 	float: right;
- 	padding-top: 3%;
- }
+.about-me p
+{
+	color: black;
+}
  .skills
  {
  	background-color: black;
@@ -99,6 +85,7 @@ body h1,h2,h3,p,a
 {
 	padding-top: 10%;
 	padding-left: 2%;
+
 }
 .skills-img img
 {
@@ -153,43 +140,34 @@ body h1,h2,h3,p,a
 	width: 100%;
 	height: 150vh;
 }
-.carousel
-{
-	width: 70%;
-	height: 40%;
-	margin-left: 13%;
-	padding-top: 10%;
-}
-.carousel-control-next
-{
-	margin-top: 35%;
-}
-.carousel-control-prev
-{
-	margin-top: 35%;
-}
-.carousel-indicators
-{
-	margin:-20% 0;
-}
 .works h1
 {
 	text-align: center;
 }
-.works-details
+.col-sm
 {
-	text-align: center;
-	padding-top: 15%;
+	margin-left: -15%;
 }
-.works-details a
+.container
 {
- color: black;
+	margin-left: 23%;
+	padding-top: 2%;
 }
-.works-details button
-{
- width: 200px;
- height: 70px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face
 {
 	font-family: ApexMK3;

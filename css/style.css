@@ -36,6 +36,8 @@ body h1,h2,h3,p,a
 .main img
 {
 	float: right;
+	padding-right: 10%;
+	margin-top: -5%;
 }
 .about
 {

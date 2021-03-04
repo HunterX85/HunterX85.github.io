@@ -8,6 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
@@ -37,10 +39,10 @@
 </nav>
   </header>
   <section class="main" id="main">
-    <h1>Добро пожаловать</h1>
-    <h3>На этом сайте вы можете познакомится со мной,</br>
+    <h1 class="wow  fadeIn" data-wow-delay="0.5s" data-wow-duration="5s">Добро пожаловать</h1>
+    <h3 class="wow  fadeIn" data-wow-delay="1s" data-wow-duration="5s">На этом сайте вы можете познакомится со мной,</br>
         ознакомится с моими навыками</br> и посмотреть мои работы</h3>
-        <img src="img/52O8.gif">
+        <img src="img/shesterenka.png">
   </section>
   <section class="about" id="about">
     <div class="about-photo">
@@ -57,9 +59,9 @@
     <h1>Навыки</h1>
     <h2>Графические редакторы</h2>
     <div class="skills-img">
-      <img src="img/adobe-photoshop (3).png">
-      <img src="img/adobe-illustrator (1).png">
-      <img src="img/figma (2).png">      
+      <img src="img/adobe-photoshop.png">
+      <img src="img/adobe-illustrator.png">
+      <img src="img/figma.png">      
     </div>
      <div class="prog-bar-1">
     <div class="prog">
@@ -130,5 +132,23 @@
 </div>
   </section>
   <script src="js/main.js"></script>
+   <script>
+
+var wow = new WOW(
+  {
+    boxClass:     'wow',      // класс, скрывающий элемент до момента отображения на экране (по умолчанию, wow)
+    animateClass: 'animated', // класс для анимации элемента (по умолчанию, animated)
+    offset:       150,          // расстояние в пикселях от нижнего края браузера до верхней границы элемента, необходимое для начала анимации (по умолчанию, 0)
+    mobile:       true,       // включение/отключение WOW.js на мобильных устройствах (по умолчанию, включено)
+    live:         true,       // поддержка асинхронно загруженных элементов (по умолчанию, включена)
+    callback:     function(box) {
+      // функция срабатывает каждый раз при старте анимации
+      // аргумент box — элемент, для которого была запущена анимация
+    },
+    scrollContainer: null // селектор прокручивающегося контейнера (опционально, по умолчанию, window)
+  }
+);
+wow.init();
+</script>
 </body>
 </html>

@@ -73,8 +73,11 @@
     }
     .container
     {
-    	margin-left: 10%;
-    	width: 100%;
+    	margin-left: 1%;
+    	width: 300px;
     }
-
+    .works-button
+{
+	margin-left: 36%;
+}
 }

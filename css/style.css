@@ -140,7 +140,7 @@ body h1,h2,h3,p,a
 	background-color: black;
 	background-size: cover;
 	width: 100%;
-	height: 150vh;
+	height: 100%;
 }
 .works h1
 {
@@ -169,16 +169,6 @@ body h1,h2,h3,p,a
 {
 color: black
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
